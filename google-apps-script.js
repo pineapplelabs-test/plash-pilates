@@ -73,7 +73,7 @@ function doPost(e) {
       var headerRange = sheet.getRange(1, 1, 1, headers.length);
       headerRange.setValues([headers]);
       headerRange.setFontWeight("bold");
-      headerRange.setBackground("#5D0703"); // Plash Luxury Maroon
+      headerRange.setBackground("#2E1019"); // Plash Brand Espresso Maroon
       headerRange.setFontColor("#FFFFFF");
       headerRange.setHorizontalAlignment("center");
       headerRange.setVerticalAlignment("middle");
